@@ -36,7 +36,7 @@ kind: ReplicaSet
 metadata:
   name: backend
 spec:
-  replicas: 4
+  replicas: 2
   selector:
     matchLabels:
       tier: backend
